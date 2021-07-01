@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caretta Shop</title>
+
+     <!-- MDB icon -->
+     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+     <!-- Google Fonts Roboto -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+ 
+
+     <link rel="stylesheet" href="/css/bootstrap5.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    
+
+ <!--Navbar -->
+ <nav class="mb-1 navbar navbar-expand-lg z-depth-0">
+    <div class="container">
+          <div class="raw">
+              <div class="site-search-icon text-left">
+                <form action="" class="site-block-top-search">
+                  <i class="fas fa-search"></i>
+                  <input type="text" class="form-control border-0" placeholder="Search">
+                </form>
+              </div>
+              
+                  <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
+                      <div class="site-logo">
+                        <a href="index.html" class="js-logo-clone">caretta</a>
+                      </div>
+                  </div>
+  
+                  <div class="right-icons">
+                    <ul class="navbar-nav ml-auto nav-flex-icons">
+                      <li class="nav-item">
+                        <a class="nav-link">
+                          <i class="fas fa-user"></i>
+                        </a>
+  
+                        <li class="nav-item">
+                          <a class="nav-link waves-effect waves-light">
+                            <i class="far fa-heart"></i>
+                          </a>
+                        </li>
+  
+                      <li class="nav-item">
+                        <a href="/cart.html" class="nav-link waves-effect waves-light">
+                        <i class="fas fa-shopping-cart mr-3"></i>
+                        <span class="count">2</span>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+          </div>
+    </div>
+  </nav>
+  <!--/.Navbar -->
+  
+  <div class="nav-hr">
+    <hr>
+  </div>
+    
+  <div class="container-fluid">
+    <div class="row">
+  <nav class="mb-1 navbar-lnks navbar-expand-lg z-depth-0">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+      aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+      <ul class="navbar-nav mr-auto">
+  
+        <li class="nav-item dropdown active">
+          <a href="/index.html" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">HOME
+            <span class="sr-only">(current)</span>
+          </a>
+          <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+            <a class="dropdown-item" href="#">Menu One</a>
+            <a class="dropdown-item" href="#">Menu Two</a>
+            <a class="dropdown-item" href="#">Menu Three</a>
+          </div>
+  
+  
+          <li class="nav-item dropdown active">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">CATALOGUE
+              <span class="sr-only">(current)</span>
+            </a>
+            <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+              <a class="dropdown-item" href="#">Menu One</a>
+              <a class="dropdown-item" href="#">Menu Two</a>
+              <a class="dropdown-item" href="#">Menu Three</a>
+            </div>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="/shop.html">SHOP
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">NEW ARRIVALS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+
+
+    <!-------breadcrumb------->
+    <div class="container-fluid">
+        <div class="breadcrumb-main">
+            <nav class="" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                </ol>
+            </nav>        
+        </div>
+    </div>
+
+  
+
+<!--
+
+                  <div id="slider-range" class="border-primary ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                    <div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 20%; width: 40%;"></div>
+                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 20%;"></span>
+                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 60%;"></span>
+                  </div>
+                <input type="text" name="text" id="amount" class="form-control border-0 pl-0 bg-white" disabled="">
+
+-->
+
+
+    <div class="the-shop container">
+      <div class="row">
+
+        <div class="title-filter-shop col-md-12">
+          <div class="float-md-left"><h2 class="text-black h5">Shop All</h2></div>
+          <div class="d-flex">
+            <div class="dropdown mr-1 ml-md-auto">
+              <button type="button" class="shop-btn-filter btn btn-sm dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Latest
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 42px, 0px);">
+                <a class="dropdown-item" href="#">Men</a>
+                <a class="dropdown-item" href="#">Women</a>
+                <a class="dropdown-item" href="#">Children</a>
+              </div>
+            </div>
+            
+            <div class="dropdown">
+              <button type="button" class="shop-btn-filter btn btn-sm dropdown-toggle" id="dropdownMenuReference" data-toggle="dropdown" aria-expanded="false">Reference</button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuReference" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 43px, 0px);">
+                <a class="dropdown-item" href="#">Relevance</a>
+                <a class="dropdown-item" href="#">Name, A to Z</a>
+                <a class="dropdown-item" href="#">Name, Z to A</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Price, low to high</a>
+                <a class="dropdown-item" href="#">Price, high to low</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="all-filter col-lg-3 mb-5" style="width: 250px;">
+
+
+            <div class="mb-4">
+              <div class="category card-body">
+
+                <h3>CATEGORIES</h3>
+
+                <div class="cat-list">
+
+                    <ul>
+                        <li> <a href="#">
+                            <span class="info-black">Men</span>
+                            <span class="text-black ml-auto">(2,200)</span>
+                        </a> 
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li> <a href="#">
+                            <span class="info-black">Women</span>
+                            <span class="text-black ml-auto">(2,500)</span>
+                        </a> 
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li> <a href="#">
+                            <span class="info-black">Children</span>
+                            <span class="text-black ml-auto">(2,124)</span>
+                        </a> 
+                        </li>
+                    </ul>
+
+                </div>
+              </div>
+          </div>
+
+
+            <div class="filter-size-color card-body">
+
+              <h3>FILTER BY PRICE</h3>
+
+                <div class="middle mb-3">
+                  <div class="multi-range-slider">
+                    <input type="range" id="input-left" min="0" max="100" value="25">
+                    <input type="range" id="input-right" min="0" max="100" value="75">
+                
+                    <div class="slider">
+                      <div class="track"></div>
+                      <div class="range"></div>
+                      <div class="thumb left"></div>
+                      <div class="thumb right"></div>
+                    </div>
+                  </div>
+                </div>
+                
+                <b class="ml-3 mr-5">&#36; 10</b> <b class="ml-5">&#36; 500</b>
+
+              <h3 class="mt-5">SIZE</h3>
+
+              <div class="cat-size">
+
+                <label for="s_sm" class="d-flex">
+                  <input type="checkbox" id="s_sm" class="mr-2 mt-1"> <span class="info-black">Small</span>
+                  <span class="text-black">(2,319)</span>
+                </label>
+
+                <label for="s_md" class="d-flex">
+                  <input type="checkbox" id="s_md" class="mr-2 mt-1"> <span class="info-black">Medium</span>
+                  <span class="text-black">(1,282)</span>
+                </label>
+
+                <label for="s_lg" class="d-flex">
+                  <input type="checkbox" id="s_lg" class="mr-2 mt-1"> <span class="info-black">Large</span>
+                  <span class="text-black">(1,392)</span>
+                </label>
+                
+              </div>
+
+              <h3 class="mt-5">COLOR</h3>
+
+              <div class="cat-size">
+
+                <a href="#" class="d-flex color-item align-items-center">
+                  <span class="bullet bg-danger color d-inline-block rounded-circle mr-2"></span> 
+                  <span class="info-black">Red</span>
+                  <span class="text-black">(2,429)</span>
+                </a>
+
+                <a href="#" class="d-flex color-item align-items-center">
+                  <span class="bg-success color d-inline-block rounded-circle mr-2"></span> 
+                  <span class="info-black">Green</span>
+                  <span class="text-black">(2,298)</span>
+                </a>
+
+                <a href="#" class="d-flex color-item align-items-center">
+                  <span class="bg-info color d-inline-block rounded-circle mr-2"></span> 
+                  <span class="info-black">Blue</span>
+                  <span class="text-black">(1,075)</span>
+                </a>
+
+                <a href="#" class="d-flex color-item align-items-center">
+                  <span class="bg-primary color d-inline-block rounded-circle mr-2"></span> 
+                  <span class="info-black">Purple</span>
+                  <span class="text-black">(1,075)</span>
+                </a>
+                
+              </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="products-items col-lg-9 mb-5">
+    
+              <div class="row">
+
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="/imgs/cloth_1.jpg"
+                         alt="Card image cap">
+                    <div class="card-body text-center">
+                      <a href="#"><h4 class="card-title">Tank Top</h4></a>
+                      <p class="card-text">Finding perfect products</p>
+                      <p class="card-price">50$</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="/imgs/shoe_1.jpg"
+                         alt="Card image cap">
+                    <div class="card-body text-center">
+                      <a href="#"><h4 class="card-title">Corater</h4></a>
+                      <p class="card-text">Finding perfect products</p>
+                        <p class="card-price">50$</p>
+                      </div>
+                  </div>
+                </div>
+      
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="/imgs/cloth_2.jpg"
+                         alt="Card image cap">
+                    <div class="card-body text-center">
+                      <a href="#"><h4 class="card-title">Polo Shirt</h4></a>
+                      <p class="card-text">Finding perfect products</p>
+                        <p class="card-price">50$</p>
+                    </div>
+                  </div>
+                </div>
+  
+
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="/imgs/cloth_1.jpg"
+                         alt="Card image cap">
+                    <div class="card-body text-center">
+                      <a href="#"><h4 class="card-title">Tank Top</h4></a>
+                      <p class="card-text">Finding perfect products</p>
+                      <p class="card-price">50$</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="/imgs/shoe_1.jpg"
+                         alt="Card image cap">
+                    <div class="card-body text-center">
+                      <a href="#"><h4 class="card-title">Corater</h4></a>
+                      <p class="card-text">Finding perfect products</p>
+                        <p class="card-price">50$</p>
+                      </div>
+                  </div>
+                </div>
+      
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="/imgs/cloth_2.jpg"
+                         alt="Card image cap">
+                    <div class="card-body text-center">
+                      <a href="#"><h4 class="card-title">Polo Shirt</h4></a>
+                      <p class="card-text">Finding perfect products</p>
+                        <p class="card-price">50$</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="/imgs/cloth_2.jpg"
+                         alt="Card image cap">
+                    <div class="card-body text-center">
+                      <a href="#"><h4 class="card-title">Polo Shirt</h4></a>
+                      <p class="card-text">Finding perfect products</p>
+                        <p class="card-price">50$</p>
+                    </div>
+                  </div>
+                </div>
+  
+
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="/imgs/cloth_1.jpg"
+                         alt="Card image cap">
+                    <div class="card-body text-center">
+                      <a href="#"><h4 class="card-title">Tank Top</h4></a>
+                      <p class="card-text">Finding perfect products</p>
+                      <p class="card-price">50$</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="/imgs/shoe_1.jpg"
+                         alt="Card image cap">
+                    <div class="card-body text-center">
+                      <a href="#"><h4 class="card-title">Corater</h4></a>
+                      <p class="card-text">Finding perfect products</p>
+                        <p class="card-price">50$</p>
+                      </div>
+                  </div>
+                </div>
+  
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="/imgs/shoe_1.jpg"
+                         alt="Card image cap">
+                    <div class="card-body text-center">
+                      <a href="#"><h4 class="card-title">Corater</h4></a>
+                      <p class="card-text">Finding perfect products</p>
+                        <p class="card-price">50$</p>
+                      </div>
+                  </div>
+                </div>
+      
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="/imgs/cloth_2.jpg"
+                         alt="Card image cap">
+                    <div class="card-body text-center">
+                      <a href="#"><h4 class="card-title">Polo Shirt</h4></a>
+                      <p class="card-text">Finding perfect products</p>
+                        <p class="card-price">50$</p>
+                    </div>
+                  </div>
+                </div>
+  
+
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="/imgs/cloth_1.jpg"
+                         alt="Card image cap">
+                    <div class="card-body text-center">
+                      <a href="#"><h4 class="card-title">Tank Top</h4></a>
+                      <p class="card-text">Finding perfect products</p>
+                      <p class="card-price">50$</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+      
+            </div>
+      
+            <nav class="pagination" aria-label="Page navigation example">
+              <ul class="pagination pagination-circle pg-blue">
+                <li class="page-item disabled"><a class="page-link">First</a></li>
+                <li class="page-item disabled">
+                  <a class="page-link" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                </li>
+                <li class="page-item active"><a class="page-link">1</a></li>
+                <li class="page-item"><a class="page-link">2</a></li>
+                <li class="page-item"><a class="page-link">3</a></li>
+                <li class="page-item"><a class="page-link">4</a></li>
+                <li class="page-item"><a class="page-link">5</a></li>
+                <li class="page-item">
+                  <a class="page-link" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link">Last</a></li>
+              </ul>
+            </nav>
+
+
+
+          </div>
+
+<div class="container">
+      </div>
+        <div class="last-carusel-title-shop">
+          <h2>Big Sale!</h2>
+          <hr>
+        </div>
+      </div>
+</div>
+
+  <div class="container cards-row-shop-page">
+    <div class="row">
+
+
+
+      <div class="cards-row-3 col-lg-4 col-md-6 col-sm-12 animated fadeInRight fast"> 
+        <div class="card img-fluid" style="width:350px">
+          <a href="#">
+          <img class="card-img-top" src="/imgs/women.jpg" alt="Card image" style="width:100%">
+          <div class="card-img-overlay d-flex flex-column justify-content-end text-white">
+            <p class="card-text text-uppercase mb-1">Collections</p>
+            <h4 class="card-title">Women</h4>
+          </div>
+          </a>
+        </div>
+      </div> 
+  
+  
+      <div class="cards-row-3 col-lg-4 col-md-6 col-sm-12 animated fadeInRight slow"> 
+        <div class="card img-fluid" style="width:350px">
+          <a href="#">
+          <img class="card-img-top" src="/imgs/children.jpg" alt="Card image" style="width:100%">
+          <div class="card-img-overlay d-flex flex-column justify-content-end text-white">
+            <p class="card-text text-uppercase mb-1">Collections</p>
+            <h4 class="card-title">Children</h4>
+          </div>
+        </a>
+        </div>
+      </div> 
+  
+  
+      <div class="cards-row-3 col-lg-4 col-md-6 col-sm-12 animated fadeInRight slow"> 
+        <div class="card img-fluid" style="width:350px">
+          <a href="#">
+          <img class="w-100 card-img-top" src="/imgs/men.jpg" alt="Card image" style="width:100%">
+          <div class="card-img-overlay d-flex flex-column justify-content-end text-white">
+            <p class="card-text text-uppercase mb-1">Collections</p>
+            <h4 class="card-title">Men</h4>
+          </div>
+        </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+
+  <div class="footer-hr-shop-pg">
+    <hr>
+  </div>
+
+     <!-- Footer -->
+<footer>
+    <!-- Grid container -->
+    <div class="container p-4">
+  
+      <!-- Section: Links -->
+      <section class="footer">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="colsec1 col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="Navigations">Navigations</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Sell online</a>
+              </li>
+              <li>
+                <a href="#!">Features</a>
+              </li>
+              <li>
+                <a href="/cart.html">Shopping cart</a>
+              </li>
+              <li>
+                <a href="#!">Store builder</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="colsec2 col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase"></h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Mobile commerce</a>
+              </li>
+              <li>
+                <a href="#!">Dropshipping</a>
+              </li>
+              <li>
+                <a href="#!">Website development</a>
+              </li>
+  
+            </ul>
+          </div>
+  
+          <div class="colsec3 col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase"></h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Point of sale</a>
+              </li>
+              <li>
+                <a href="#!">Hardware</a>
+              </li>
+              <li>
+                <a href="#!">Software</a>
+              </li>
+  
+            </ul>
+          </div>
+  
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="colsec4 col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="Promo">Promo</h5>
+  
+              <div class="list-unstyled mb-0">
+  
+              <div class="img-foot">
+                <img src="/imgs/hero_1.jpg">
+              </div>
+  
+              <div class="content-foot">
+                <a href=""><p class="cont-foot-title">Finding Your Perfect Shoes</p></a>
+                <p class="cont-foot-info">CARETTA Promo 15 — 25, 2021</p>
+              </div>
+            </div>
+            
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="colsec5 col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="Contact-Info">Contact Info</h5>
+  
+            <ul class="list-unstyled mb-0">
+  
+              <i class="location fas fa-map-marker-alt mt-2"></i>
+              <li class="address">203 Fake St. Mountain View, San Francisco, California, USA</li>
+             
+              <i class="phone fas fa-phone-alt"></i>
+              <li class="phone-link"><a href="tel://23923929210">+2 392 3929 210</a></li>
+              
+              <i class="mail fas fa-envelope"></i>
+              <li class="mail-link">emailaddress@domain.com</li>
+  
+            </ul> 
+  
+                    <!-- Section: Form -->
+          <section class="form-mail">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-right">
+                <!--Grid column-->
+                <div class="form-mail-Subscribe col-auto">
+                  <p class="pt-2">
+                    <p>Subscribe</p>
+                  </p>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-mail-input form-outline mb-4">
+                    <input type="email" id="form5Example2" class="form-control" placeholder="Email"/>
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="form-mail-button col-auto">
+      
+                  <!-- Submit button -->
+                  <button type="submit" class="btn mb-4">
+                    Send
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
+  
+  
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+  
+    </div>
+    <!-- Grid container -->
+    <div class="Copyright">
+      <p>
+      Copyright © 2021 All rights reserved | This template is made with <i class="fas fa-heart" aria-hidden="true"></i> by <a href="#" target="_blank" class="text-primary">Islam Ibrahim</a>
+      </p>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+
+<script>
+  var inputLeft = document.getElementById("input-left");
+var inputRight = document.getElementById("input-right");
+
+var thumbLeft = document.querySelector(".slider > .thumb.left");
+var thumbRight = document.querySelector(".slider > .thumb.right");
+var range = document.querySelector(".slider > .range");
+
+function setLeftValue() {
+	var _this = inputLeft,
+		min = parseInt(_this.min),
+		max = parseInt(_this.max);
+
+	_this.value = Math.min(parseInt(_this.value), parseInt(inputRight.value) - 1);
+
+	var percent = ((_this.value - min) / (max - min)) * 100;
+
+	thumbLeft.style.left = percent + "%";
+	range.style.left = percent + "%";
+}
+setLeftValue();
+
+function setRightValue() {
+	var _this = inputRight,
+		min = parseInt(_this.min),
+		max = parseInt(_this.max);
+
+	_this.value = Math.max(parseInt(_this.value), parseInt(inputLeft.value) + 1);
+
+	var percent = ((_this.value - min) / (max - min)) * 100;
+
+	thumbRight.style.right = (100 - percent) + "%";
+	range.style.right = (100 - percent) + "%";
+}
+setRightValue();
+
+inputLeft.addEventListener("input", setLeftValue);
+inputRight.addEventListener("input", setRightValue);
+
+inputLeft.addEventListener("mouseover", function() {
+	thumbLeft.classList.add("hover");
+});
+inputLeft.addEventListener("mouseout", function() {
+	thumbLeft.classList.remove("hover");
+});
+inputLeft.addEventListener("mousedown", function() {
+	thumbLeft.classList.add("active");
+});
+inputLeft.addEventListener("mouseup", function() {
+	thumbLeft.classList.remove("active");
+});
+
+inputRight.addEventListener("mouseover", function() {
+	thumbRight.classList.add("hover");
+});
+inputRight.addEventListener("mouseout", function() {
+	thumbRight.classList.remove("hover");
+});
+inputRight.addEventListener("mousedown", function() {
+	thumbRight.classList.add("active");
+});
+inputRight.addEventListener("mouseup", function() {
+	thumbRight.classList.remove("active");
+});
+</script>
+
+        <!-- End your project here-->
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+</html>

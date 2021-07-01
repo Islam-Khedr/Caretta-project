@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caretta Shop</title>
+
+     <!-- MDB icon -->
+     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+     <!-- Google Fonts Roboto -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+ 
+
+     <link rel="stylesheet" href="/css/bootstrap5.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    
+
+ <!--Navbar -->
+ <nav class="mb-1 navbar navbar-expand-lg z-depth-0">
+    <div class="container">
+          <div class="raw">
+              <div class="site-search-icon text-left">
+                <form action="" class="site-block-top-search">
+                  <i class="fas fa-search"></i>
+                  <input type="text" class="form-control border-0" placeholder="Search">
+                </form>
+              </div>
+              
+                  <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
+                      <div class="site-logo">
+                        <a href="index.html" class="js-logo-clone">caretta</a>
+                      </div>
+                  </div>
+  
+                  <div class="right-icons">
+                    <ul class="navbar-nav ml-auto nav-flex-icons">
+                      <li class="nav-item">
+                        <a class="nav-link">
+                          <i class="fas fa-user"></i>
+                        </a>
+  
+                        <li class="nav-item">
+                          <a class="nav-link waves-effect waves-light">
+                            <i class="far fa-heart"></i>
+                          </a>
+                        </li>
+  
+                      <li class="nav-item">
+                        <a href="/cart.html" class="nav-link waves-effect waves-light">
+                        <i class="fas fa-shopping-cart mr-3"></i>
+                        <span class="count">2</span>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+          </div>
+    </div>
+  </nav>
+  <!--/.Navbar -->
+  
+  <div class="nav-hr">
+    <hr>
+  </div>
+    
+  <div class="container-fluid">
+    <div class="row">
+  <nav class="mb-1 navbar-lnks navbar-expand-lg z-depth-0">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+      aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+      <ul class="navbar-nav mr-auto">
+  
+        <li class="nav-item dropdown active">
+          <a href="/index.html" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">HOME
+            <span class="sr-only">(current)</span>
+          </a>
+          <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+            <a class="dropdown-item" href="#">Menu One</a>
+            <a class="dropdown-item" href="#">Menu Two</a>
+            <a class="dropdown-item" href="#">Menu Three</a>
+          </div>
+  
+  
+          <li class="nav-item dropdown active">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">CATALOGUE
+              <span class="sr-only">(current)</span>
+            </a>
+            <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+              <a class="dropdown-item" href="#">Menu One</a>
+              <a class="dropdown-item" href="#">Menu Two</a>
+              <a class="dropdown-item" href="#">Menu Three</a>
+            </div>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="/shop.html">SHOP
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">NEW ARRIVALS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+
+
+    <!-------breadcrumb------->
+    <div class="container-fluid">
+        <div class="breadcrumb-main">
+            <nav class="" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Cart</li>
+                </ol>
+            </nav>        
+        </div>
+    </div>
+
+
+    <!-------Cart------->
+<div class="site-section">
+    <div class="container">
+      <div class="row mb-5">
+        <form class="col-md-12" method="post">
+          <div class="site-blocks-table">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th class="product-thumbnail">Image</th>
+                  <th class="product-name">Product</th>
+                  <th class="product-price">Price</th>
+                  <th class="product-quantity">Quantity</th>
+                  <th class="product-total">Total</th>
+                  <th class="product-remove">Remove</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="product-thumbnail">
+                    <img style="width: 139px; height: 113px;" src="/imgs/cloth_1.jpg" alt="Image" class="img-fluid">
+                  </td>
+                  <td class="product-name">
+                    <h2 class="h5 text-black mt-4">Top Up T-Shirt</h2>
+                  </td>
+                  <td class="tdata">$49.00</td>
+                  <td>
+                    <div class="input-group" style="max-width: 140px;">
+                      <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary js-btn-minus" type="button">−</button>
+                      </div>
+                      <input type="text" class="btn-num form-control text-center" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-primary js-btn-plus" type="button">+</button>
+                      </div>
+                    </div>
+
+                  </td>
+                  <td class="tdata">$49.00</td>
+                  <td><a href="#" class="btn btn-primary btn-sm mt-">X</a></td>
+                </tr>
+
+                <tr>
+                  <td class="product-thumbnail">
+                    <img style="width: 139px; height: 113px;" src="/imgs/cloth_2.jpg" alt="Image" class="img-fluid">
+                  </td>
+                  <td class="product-name">
+                    <h2 class="h5 text-black mt-4">Polo Shirt</h2>
+                  </td>
+                  <td class="tdata">$49.00</td>
+                  <td>
+                    <div class="input-group" style="max-width: 140px;">
+                      <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary js-btn-minus" type="button">−</button>
+                      </div>
+                      <input type="text" class="btn-num form-control text-center" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-primary js-btn-plus" type="button">+</button>
+                      </div>
+                    </div>
+
+                  </td>
+                  <td class="tdata">$49.00</td>
+                  <td><a href="#" class="btn btn-primary btn-sm mt-1">X</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </form>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 btn-after">
+          <div class="row mb-5">
+            <div class="col-md-6 mb-3 mb-md-0">
+              <button class="btn btn-primary btn-sm btn-block">Update Cart</button>
+            </div>
+            <div class="col-md-6">
+              <button class="btn btn-primary btn-sm btn-block">Continue Shopping</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <label class="text-black h4" for="coupon">Coupon</label>
+              <p>Enter your coupon code if you have one.</p>
+            </div>
+            <div class="col-md-8 mb-3 mb-md-0">
+              <input type="text" class="form-control py-3" id="coupon" placeholder="Coupon Code">
+            </div>
+            <div class="col-md-4">
+              <button class="btn btn-primary btn-sm">Apply Coupon</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 pl-5">
+          <div class="row justify-content-end">
+            <div class="col-md-7">
+              <div class="row">
+                <div class="col-md-12 text-right border-bottom mb-5">
+                  <h3 class="text-black h4 text-uppercase">Cart Totals</h3>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <span class="text-black">Subtotal</span>
+                </div>
+                <div class="col-md-6 text-right">
+                  <strong class="text-black">$230.00</strong>
+                </div>
+              </div>
+              <div class="row mb-5">
+                <div class="col-md-6">
+                  <span class="text-black">Total</span>
+                </div>
+                <div class="col-md-6 text-right">
+                  <strong class="text-black">$230.00</strong>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 btn-after">
+                  <button class="btn btn-primary btn-lg py-3 btn-block" onclick="window.location='checkout.html'">Proceed To Checkout</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+    <div class="footer-hr-shop-pg">
+        <hr>
+      </div>
+    
+         <!-- Footer -->
+    <footer>
+        <!-- Grid container -->
+        <div class="container p-4">
+      
+          <!-- Section: Links -->
+          <section class="footer">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="colsec1 col-lg-2 col-md-6 mb-4 mb-md-0">
+                <h5 class="Navigations">Navigations</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!">Sell online</a>
+                  </li>
+                  <li>
+                    <a href="#!">Features</a>
+                  </li>
+                  <li>
+                    <a href="/cart.html">Shopping cart</a>
+                  </li>
+                  <li>
+                    <a href="#!">Store builder</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="colsec2 col-lg-2 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase"></h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!">Mobile commerce</a>
+                  </li>
+                  <li>
+                    <a href="#!">Dropshipping</a>
+                  </li>
+                  <li>
+                    <a href="#!">Website development</a>
+                  </li>
+      
+                </ul>
+              </div>
+      
+              <div class="colsec3 col-lg-2 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase"></h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!">Point of sale</a>
+                  </li>
+                  <li>
+                    <a href="#!">Hardware</a>
+                  </li>
+                  <li>
+                    <a href="#!">Software</a>
+                  </li>
+      
+                </ul>
+              </div>
+      
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="colsec4 col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="Promo">Promo</h5>
+      
+                  <div class="list-unstyled mb-0">
+      
+                  <div class="img-foot">
+                    <img src="/imgs/hero_1.jpg">
+                  </div>
+      
+                  <div class="content-foot">
+                    <a href=""><p class="cont-foot-title">Finding Your Perfect Shoes</p></a>
+                    <p class="cont-foot-info">CARETTA Promo 15 — 25, 2021</p>
+                  </div>
+                </div>
+                
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="colsec5 col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="Contact-Info">Contact Info</h5>
+      
+                <ul class="list-unstyled mb-0">
+      
+                  <i class="location fas fa-map-marker-alt mt-2"></i>
+                  <li class="address">203 Fake St. Mountain View, San Francisco, California, USA</li>
+                 
+                  <i class="phone fas fa-phone-alt"></i>
+                  <li class="phone-link"><a href="tel://23923929210">+2 392 3929 210</a></li>
+                  
+                  <i class="mail fas fa-envelope"></i>
+                  <li class="mail-link">emailaddress@domain.com</li>
+      
+                </ul> 
+      
+                        <!-- Section: Form -->
+              <section class="form-mail">
+                <form action="">
+                  <!--Grid row-->
+                  <div class="row d-flex justify-content-right">
+                    <!--Grid column-->
+                    <div class="form-mail-Subscribe col-auto">
+                      <p class="pt-2">
+                        <p>Subscribe</p>
+                      </p>
+                    </div>
+                    <!--Grid column-->
+          
+                    <!--Grid column-->
+                    <div class="col-md-5 col-12">
+                      <!-- Email input -->
+                      <div class="form-mail-input form-outline mb-4">
+                        <input type="email" id="form5Example2" class="form-control" placeholder="Email"/>
+                      </div>
+                    </div>
+                    <!--Grid column-->
+          
+                    <!--Grid column-->
+                    <div class="form-mail-button col-auto">
+          
+                      <!-- Submit button -->
+                      <button type="submit" class="btn mb-4">
+                        Send
+                      </button>
+                    </div>
+                    <!--Grid column-->
+                  </div>
+                  <!--Grid row-->
+                </form>
+              </section>
+              <!-- Section: Form -->
+      
+      
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+      
+        </div>
+        <!-- Grid container -->
+        <div class="Copyright">
+          <p>
+          Copyright © 2021 All rights reserved | This template is made with <i class="fas fa-heart" aria-hidden="true"></i> by <a href="#" target="_blank" class="text-primary">Islam Ibrahim</a>
+          </p>
+        </div>
+      </footer>
+      <!-- Footer -->
+    
+    
+    <script>
+      var inputLeft = document.getElementById("input-left");
+    var inputRight = document.getElementById("input-right");
+    
+    var thumbLeft = document.querySelector(".slider > .thumb.left");
+    var thumbRight = document.querySelector(".slider > .thumb.right");
+    var range = document.querySelector(".slider > .range");
+    
+    function setLeftValue() {
+        var _this = inputLeft,
+            min = parseInt(_this.min),
+            max = parseInt(_this.max);
+    
+        _this.value = Math.min(parseInt(_this.value), parseInt(inputRight.value) - 1);
+    
+        var percent = ((_this.value - min) / (max - min)) * 100;
+    
+        thumbLeft.style.left = percent + "%";
+        range.style.left = percent + "%";
+    }
+    setLeftValue();
+    
+    function setRightValue() {
+        var _this = inputRight,
+            min = parseInt(_this.min),
+            max = parseInt(_this.max);
+    
+        _this.value = Math.max(parseInt(_this.value), parseInt(inputLeft.value) + 1);
+    
+        var percent = ((_this.value - min) / (max - min)) * 100;
+    
+        thumbRight.style.right = (100 - percent) + "%";
+        range.style.right = (100 - percent) + "%";
+    }
+    setRightValue();
+    
+    inputLeft.addEventListener("input", setLeftValue);
+    inputRight.addEventListener("input", setRightValue);
+    
+    inputLeft.addEventListener("mouseover", function() {
+        thumbLeft.classList.add("hover");
+    });
+    inputLeft.addEventListener("mouseout", function() {
+        thumbLeft.classList.remove("hover");
+    });
+    inputLeft.addEventListener("mousedown", function() {
+        thumbLeft.classList.add("active");
+    });
+    inputLeft.addEventListener("mouseup", function() {
+        thumbLeft.classList.remove("active");
+    });
+    
+    inputRight.addEventListener("mouseover", function() {
+        thumbRight.classList.add("hover");
+    });
+    inputRight.addEventListener("mouseout", function() {
+        thumbRight.classList.remove("hover");
+    });
+    inputRight.addEventListener("mousedown", function() {
+        thumbRight.classList.add("active");
+    });
+    inputRight.addEventListener("mouseup", function() {
+        thumbRight.classList.remove("active");
+    });
+    </script>
+    
+            <!-- End your project here-->
+        <!-- jQuery -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+    </body>
+    </html>
